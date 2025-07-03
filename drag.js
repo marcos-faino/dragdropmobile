@@ -11,7 +11,7 @@ window.onload = function() {
       var touchLocation = e.targetTouches[0];
       
       // assign box new coordinates based on the touch.
-      box.style.left = touchLocation.pageX + 'px';
+      box.style.left = (touchLocation.pageX + Math.floor(box.style.width/2)) + 'px';
       box.style.top = touchLocation.pageY + 'px';
     })
     
