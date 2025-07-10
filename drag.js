@@ -41,7 +41,7 @@ window.onload = function() {
       // current box position.
       var x = parseInt(box.style.left);
       var y = parseInt(box.style.top);
-      if(x > dest.style.left and y > dest.style.top){
+      if(x > dest.style.left && y > dest.style.top){
           alert('ok');
       }
     })
